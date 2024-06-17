@@ -26,6 +26,7 @@ System.out.println(BinarySearch(new int [] {1,2,3,4,5}, 4));
 		}
 		}
 		return -1;
+// OR --> Arrays.binarySearch(new int [] {1,2,3,4,5}, 4);
 	}
 }
 
