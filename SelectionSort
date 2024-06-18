@@ -32,6 +32,6 @@ public class Main8 {
 	}
 }
 /*Key Takeaways: This algorithm (SelectionSort) involves a nested for loop. The goal is to compare the first element with the next. If the element chosen is found to 
- * be less than the element right after, the swap in the array begins. This continues until the value of the outer loop coresponds to the second-to-last element 
- * of the array. This will achieve an ordered array (ascending order). Alternatively, you can you java libraries and invoke the sort() method -> Arrays.sort();.
+ * be less than the element right after, the swap in the array begins. This continues until the value of the outer loop corresponds to the second-to-last element 
+ * of the array. This will achieve an ordered array (ascending order). Alternatively, you can use java libraries and invoke the sort() method -> Arrays.sort();.
 */
