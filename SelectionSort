@@ -11,6 +11,7 @@ public class Main8 {
 	
 	}
 	public static void selectionSort(double [] list) {
+		//Chooses the element to prepare for comparison
 		for (int i = 0; i < list.length -1; i++) {
 			double currentMinElement = list[i];
 			
@@ -22,6 +23,7 @@ public class Main8 {
 				currentMinIndex = j; 
 			}
 		}
+		//Swap begins if there is a minimum value found.
 		if (currentMinIndex != i) {
 			list[currentMinIndex] = list[i];
 			list[i] = currentMinElement;
@@ -29,3 +31,7 @@ public class Main8 {
 		}
 	}
 }
+/*Key Takeaways: This algorithm (SelectionSort) involves a nested for loop. The goal is to compare the first element with the next. If the element chosen is found to 
+ * be less than the element right after, the swap in the array begins. This continues until the value of the outer loop coresponds to the second-to-last element 
+ * of the array. This will achieve an ordered array (ascending order). Alternatively, you can you java libraries and invoke the sort() method -> Arrays.sort();.
+*/
